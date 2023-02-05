@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-sclale=1.0">
+    <title>Planets</title>
+    <link rel="icon" href="planet.png">
+</head>
+<body>
+<header>
+    <h1>Planets</h1>
+</header>
+<main>
+    <section>
+        <table border="2">
+            <thead>
+                <th colspan="2">
+                   
+                </th>
+                <th align="center">
+                   Name 
+                </th>
+                <th align="center">
+                    Mass (10<sup>24</sup>kg)
+                </th>
+                <th align="center">
+                    Diameter (km)
+                </th>
+            </thead>
+            <tbody>
+                <tr>
+                <td align="center" rowspan="4" colspan="2"><strong>
+                    Terestrial Planets
+                </strong></td>
+                <td align="center"><strong>
+                    Mercury
+                </strong></td>
+                <td>
+                    0.330
+                </td>
+                <td>
+                    4.879
+                </td>
+            </tr>
+            <tr>
+                <td align="center"><strong>
+                    Venus
+                </strong></td>
+                <td>
+                    4.87
+                </td>
+                <td>
+                    12.104
+                </td>
+            </tr>
+            <tr>
+                <td align="center"><strong>
+                    Earth
+                </strong></td>
+                <td>
+                    5.97
+                </td>
+                <td>
+                    12,756
+                </td>
+            </tr>
+            <tr>
+                <td align="center"><strong>
+                    Mars
+                </strong></td>
+                <td>
+                    0.642
+                </td>
+                <td>
+                    6,792
+                </td>
+            </tr>
+            <tr>
+                <td align="center" rowspan="4"><strong>
+                    Jovian planets
+                </strong></td>
+                <td align="center" rowspan="2"><strong>
+                    Gas giants
+                </strong></td>
+                <td align="center"><strong>
+                    Jupiter
+                </strong></td>
+                <td>
+                    1898
+                </td>
+                <td>
+                    142,984
+                </td>
+                <tr>
+                    <td align="center"><strong>
+                        Saturn
+                    </strong></td>
+                    <td>
+                        568
+                    </td>
+                    <td>
+                        120,536
+                    </td>
+                </tr>
+            </tr>
+            <tr>
+                <td align="center" rowspan="2"><strong>
+                    Ice giants
+                </strong></td>
+                <td align="center"><strong>
+                    Uranus
+                </strong></td>
+                <td>
+                    86.8
+                </td>
+                <td>
+                    51,118
+                </td>
+                <tr>
+                    <td align="center"><strong>
+                        Neptune
+                    </strong></td>
+                    <td>
+                        102
+                    </td>
+                    <td>
+                        49,528
+                    </td>
+            </tr>
+            <tr>
+                <td align="center" colspan="2"><strong>
+                    Dwarf planets	
+                </strong></td>
+                <td align="center"><strong>
+                    Pluto
+                </strong></td>
+                <td>
+                    0.0146
+                </td>
+                <td>
+                    2,370
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
+    <br>
+    <fieldset>
+        <legend>Ask us about planets</legend>
+    <form method="get">
+    <p>
+        <label for="name" name="full name" value="full name">
+            Full name: 
+        </label>
+        <input type="text" id="name" name="full name" required>
+    </p>
+        <p>
+        <label for="email" name="email" value="email">
+            Email:
+        </label>
+        <input type="email" id="email" name="email" pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}" required>
+    </p>
+    <p>
+        <div>Favorite planet:</div>
+        <div>
+            <input type="radio" id="Mercury" name="favorite planet" value="Mercury">
+            <label for="Mercury">Mercury</label>
+        </div>
+        <div>
+            <input type="radio" id="Venus" name="favorite planet" value="Venus">
+            <label for="Venus">Venus</label>
+        </div>
+        <div>
+            <input type="radio" id="Earth" name="favorite planet" value="Earth" checked>
+            <label for="Earth">Earth</label>
+        </div>
+        <div>
+            <input type="radio" id="Mars" name="favorite planet" value="Mars">
+            <label for="Mars">Mars</label>
+        </div>
+        <div>
+            <input type="radio" id="Jupiter" name="favorite planet" value="Jupiter">
+            <label for="Jupiter">Jupiter</label>
+        </div>
+        <div>
+            <input type="radio" id="Saturn" name="favorite planet" value="Saturn">
+            <label for="Saturn">Saturn</label>
+        </div>
+        <div>
+            <input type="radio" id="Uranus" name="favorite planet" value="Uranus">
+            <label for="Uranus">Uranus</label>
+        </div>
+        <div>
+            <input type="radio" id="Neptune" name="favorite planet" value="Neptune">
+            <label for="Neptune">Neptune</label>
+        </div>
+        <div>
+            <input type="radio" id="Pluto" name="favorite planet" value="Pluto"> 
+            <label for="Pluto">Pluto</label> 
+        </div>
+    </p>
+    <p>
+        <label>
+            <input type="checkbox" required>I agree to the <a href="https://www.privacypolicies.com/blog/sample-terms-conditions-template/" target="_blank">terms and conditions</a>
+        </label>
+    </p>
+    <button type="reset">Reset</button>
+    <button type="submit">Ask away</button>
+</form>
+</fieldset>
+</main>
+</body>
+
+</html>
+
